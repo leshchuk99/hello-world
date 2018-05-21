@@ -1,5 +1,5 @@
 language: generic
-deploy
+deploy:
   provider: s3
   access_key_id: AKIAJNSZLQ3TW5VIY5MQ
   secret_access_key: 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
