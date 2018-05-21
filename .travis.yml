@@ -1,0 +1,9 @@
+language: generic
+deploy
+  provider: s3
+  access_key_id: AKIAJNSZLQ3TW5VIY5MQ
+  secret_access_key: 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
+  bucket: git-to-amazon-s3-outputbucket-1wp1ta380120q
+  on:
+    repo: leshchuk99/hello-world
+  acl: public_read
