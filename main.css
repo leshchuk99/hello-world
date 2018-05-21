@@ -52,33 +52,37 @@ h1 {
 	width:100%;
 	background:#4070ff;
 	height: 100%;
-	padding-bottom: 30px;
 }
 
 .second-row-incolumn {
 	width:100%;
 	background:#88aab5;
 	height: 100%;
-	padding-bottom: 30px;
+	display: flex;
+	flex-direction: row;
 }
 
-@media all and (max-width: 900px) { 	
-  	.second-row {
+.second-row-incolumn-1 {
+	width:100%;
+	background:green;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+.second-row-incolumn-2 {
+	width:100%;
+	background:yellow;
+	height: 100%;
+	padding-bottom: 50px;
+}
+
+@media all and (max-width: 950px) { 	
+  	.second-row, .second-row-incolumn {
   		-webkit-flex-direction: column;
   		flex-direction: column;	
   	}  
-  	.first-column, .third-column {
-	width: 100%;
-	}	
-	
-	.first-row-incolumn, .second-row-incolumn {
+  	
+	.first-column, .third-column, .first-row-incolumn, .second-row-incolumn, .second-row-incolumn-1, .second-row-incolumn-2 {
 		width: 100%;
 	}		
 }	
-
-
-
-
-
-
-
