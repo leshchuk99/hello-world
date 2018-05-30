@@ -1,0 +1,110 @@
+.container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center; 
+    margin: 1% 15% 1% 15%;
+}
+
+.container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+    background: #fafafa;
+}
+
+header {
+	background: black;
+	color:white;
+}
+
+footer {
+	background: #696969;
+	color:white;
+}
+
+.nav {
+	background:#e6e6e6;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+   text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'Fredoka One', cursive;
+  transition: .3s ease-in-out;
+  color: #696969;
+  text-shadow: 1px 1px black;
+  letter-spacing: 1px;
+  border-bottom: 2px solid transparent;
+}
+
+@media all and (min-width: 600px) 
+{
+    .nav {
+    	text-align:left;
+    	-webkit-flex: 1 auto;
+    	flex:1 auto;
+    	-webkit-order:1;
+    	order:1;
+    }
+
+    .article{
+    	-webkit-flex:500 0px;
+     	flex:500 0px;
+     	-webkit-order:2;
+     	order:2;
+    }
+
+    footer {
+    	-webkit-order:3;
+    	order:3;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .container{
+    	margin: 1% 12.5% 1% 12.5%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .container{ 
+       margin: 1% 10% 1% 10%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .container{   
+     margin: 1% 7.5% 1% 7.5%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .container{    
+    	margin: 1% 5% 1% 5%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .container{   
+     margin: 1% 2.5% 1% 2.5%;
+ 	}
+}
+
+@media all and (max-width: 600px) {
+    .container{
+    	margin: 0%;
+    }
+}
+

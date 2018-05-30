@@ -1,0 +1,19 @@
+.article{
+	padding: 0%;
+}
+
+.wreaper { 	
+	height: 100%;
+}
+
+.drop_zone {
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: gainsboro;
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    
+}
