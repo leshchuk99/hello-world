@@ -29,7 +29,7 @@ if (window.addEventListener)
                 context.drawImage(logo, 22, 22);
             }
 
-            logo.src = "images/Mercedes.png";
+            logo.src = "images/mercedes.png";
         }
 
 if (window.addEventListener)
