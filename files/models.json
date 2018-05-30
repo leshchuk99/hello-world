@@ -1,0 +1,19 @@
+[
+    {
+    "1" :"A-class", 
+	"2" :"B-class" ,
+	"3" :"C-class", 
+	"4" :"CLA-class", 
+	"5" : "CLS-class", 
+	"6" : "E-class", 
+	"7" : "G-class", 
+	"8" :"GLA-class",
+	"9" :"GLE-class",
+	"10" :"GLS-class",
+	"11" :"S-class",
+	"12" :"SL-class",
+	"13" :"SLC-class",
+	"14" :"V-class",
+	"15" :"AMG GT-class"
+    }
+]
