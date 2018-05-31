@@ -1,0 +1,32 @@
+#button{
+	padding: .5em 1em;
+	text-decoration: none; 
+}
+
+#effect {
+	width: 500px;
+	height: 170px;
+	padding: 0.4em; 
+	position: relative; 
+	background: #fafafa; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#effect h3 {
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center;
+} 
+
+#block {
+position: relative;
+}
+
+#img{
+	width: 200px; 
+	height: 110px; 
+	display: block;
+	margin-left: auto; 
+    margin-right: auto;
+}
